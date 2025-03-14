@@ -10,7 +10,7 @@ infer_endpoint = "https://fraud-fraud-detection.apps.ocp.heritage.africa"
 infer_url = f"{infer_endpoint}/v2/models/{deployed_model_name}/infer"
 
 # Chargement du scaler
-scaler_path = "detection_de_fraude/scaler.pkl"
+scaler_path = "scaler.pkl"
 with open(scaler_path, 'rb') as handle:
     scaler = pickle.load(handle)
 
