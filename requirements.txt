@@ -1,5 +1,4 @@
-streamlit
+streamlit==1.43.2
 requests
-pickle
 numpy
-pathlib
+scikit-learn  # Pour assurer la compatibilité avec pickle et scaler
